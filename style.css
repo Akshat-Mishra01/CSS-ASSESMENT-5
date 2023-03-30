@@ -1,0 +1,246 @@
+
+body
+{
+ background-color: yellow;
+}
+
+.box
+{ 
+    display: flex;
+    justify-content: center;
+}
+.row1
+{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(8, 72, 108);
+    margin: 20px;
+
+    animation: sample1 3s infinite alternate;;
+   
+}
+@keyframes sample1
+{
+   0%
+    {
+        transform: skew(-30deg);
+    }
+   100%
+   {
+    transform: skew(30deg);
+   }
+}
+.row2
+{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(203, 176, 227);
+    margin: 20px;
+
+    animation: sample2 3s infinite alternate;;
+   
+}
+@keyframes sample2
+{
+   0%
+    {
+        transform: skewY(-30deg);
+    }
+   100%
+   {
+    transform: skewY(30deg);
+   }
+}
+.row3
+{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(12, 84, 132);
+    margin: 20px;
+    animation: sample3 3s infinite ;
+   
+}
+@keyframes sample3
+{
+    0% {
+         transform: rotate(0);
+      }
+      100% {
+        transform:rotate(360deg)
+      }
+}
+.row4
+{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(12, 84, 132);
+    margin: 20px;
+
+    animation: sample4 3s infinite alternate;;
+}
+@keyframes sample4
+{
+    0%
+    {
+        transform: scale(1,1);
+    }
+   100%
+   {
+    transform: scale(1,1.5);
+   }
+}
+.row41
+{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(113, 23, 23);
+    margin: 20px;
+  animation-direction: normal;
+    animation: sample41 3s infinite alternate;;
+}
+.row42
+{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(20, 151, 20);
+    margin: 20px;
+
+    animation: sample42 3s infinite;
+
+}
+
+.try
+{
+ padding-left: 40%;    
+}
+/* ////////////////////////////First-Page//////////////////// */
+
+
+
+@keyframes sample4
+{
+    0%
+    {
+        transform: scale(1,1);
+    }
+   100%
+   {
+    transform: scale(1,1.5);
+   }
+}
+
+@keyframes sample41
+{
+   0%
+    {
+        transform: scale(1 ,1);
+    }
+   100%
+   {
+    transform: scale(.5,1);
+   }
+}
+@keyframes sample42
+{
+    0% {
+        rotate: -360deg;
+      }
+      100% {
+        rotate: 360deg;
+      }
+}
+/* ///////////////////////////////////Second-page////////////////////// */
+.container
+{
+    
+    width: 500px;
+    
+    padding-left: 600px;
+    
+}
+.num
+{
+   
+  
+}
+.child
+{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(20, 151, 20);
+    margin:20px;
+    transition: all 2s;
+}
+.a1
+{
+    transition-timing-function:linear;
+    transition: all 2s;
+
+}
+.a1:hover
+{
+    width: 480px;
+}
+
+.a2
+{
+    transition: all 2s;
+}
+.a2:hover
+{
+    width: 200px;
+    height: 200px;
+}
+
+.a3
+{
+    transition-timing-function: ease-in;
+   
+}
+.a3:hover
+{
+    width: 480px;
+}
+
+
+.a4
+{
+    transition-timing-function:ease-in-out;
+}
+.a4:hover
+{
+    width: 480px;
+}
+
+
+.a5
+{
+    transition-timing-function: ease-in;
+}
+.a5:hover
+{
+    width: 480px;
+}
+
+
+.a6
+{
+transition-timing-function:ease-out;
+}
+.a6:hover
+{
+    width: 480px;
+}
+
+
+.a7
+{
+   
+    transition-timing-function: ease, step-start, cubic-bezier(1, 1, 1,1);
+
+}
+.a7:hover
+{
+    width: 480px;
+}
+                  /* CAR-VIEW */
